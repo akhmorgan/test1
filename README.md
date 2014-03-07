@@ -1,6 +1,6 @@
 #A DEVELOPER'S INTRO TO WEBGL
 
-Recently, I have been starting to get to grips with WebGL. Having little to no real previous experience with 3D graphics, there was a reasonably steep learning curve to overcome. So I thought I'd cover a few of the basics here and share some resources that I found really useful.
+Recently, I have been starting to get to grips with WebGL. Having little to no real previous experience with 3D graphics, there was a reasonably steep learning curve to overcome. So I thought I'd touch on a few of the basics here and share some resources that I found really useful.
 ##WegGL Overview
 WebGL is a JavaScript API that allows for rendering of 3D graphics within the browser utilising the HTML5 <code>&lt;canvas&gt;</code> element. The use of JavaScript and the <code>&lt;canvas&gt;</code> also means that the graphics can be made completely interactive; responding to keyboard and mouse events, as well as touch events on mobile devices.
 
