@@ -2,11 +2,11 @@
 
 Recently, I have been starting to get to grips with WebGL. Having little to no real previous experience with 3D graphics, there was a reasonably steep learning curve to overcome. So I thought I'd touch on a few of the basics here and share some resources that I found really useful.
 ##WegGL Overview
-WebGL is a JavaScript API that allows for the rendering of 3D graphics within the browser utilising the HTML5 <code>&lt;canvas&gt;</code> element. The use of JavaScript and the <code>&lt;canvas&gt;</code> also means that the graphics can be made completely interactive; responding to keyboard and mouse events, as well as touch events on mobile devices.
+WebGL is a JavaScript API that allows for the rendering of 3D graphics within the browser utilising the HTML5 <code>&lt;canvas&gt;</code> element. The use of JavaScript and <code>&lt;canvas&gt;</code> also means that the graphics can be made completely interactive; responding to keyboard and mouse events, as well as touch events on mobile devices.
 
-There are tons of great resources out there to introduce the key concepts behind WebGl and 3D graphics in general. I found this [introduction to WebGL]( http://dev.opera.com/articles/view/an-introduction-to-webgl/) particularly helpful in getting my head around precisely what is going on behind the scenes of all those amazing [WebGL examples](http://www.chromeexperiments.com/webgl/) on the web. 
+There are tons of great resources out there to introduce the key concepts behind WebGl and 3D graphics in general. I found Luz Caballero's [introduction to WebGL]( http://dev.opera.com/articles/view/an-introduction-to-webgl/) particularly helpful in getting my head around precisely what is going on behind the scenes of all those amazing [WebGL examples](http://www.chromeexperiments.com/webgl/) on the web. 
 
-Basically, all 3D graphics are made up of vertices and fragments. Vertices are what you might expect; points with x, y and z coordinates defining their position. Fragments are essentially all of the pixels within triangles of vertices. 
+Basically, all 3D graphics in WebGL are made up of vertices and fragments. Vertices are what you might expect; points with x, y and z coordinates defining their position. Fragments are essentially all of the pixels within triangles of vertices. 
 
 So, to render a 3D image with webGL, we essentially build up the image out of triangles. We tell webGL where we want each vertex, how we want the vertices to be connected into triangles, and how we want both the vertices and the fragments between them to be shaded. Greggman on github has some [nice animations]( http://greggman.github.io/webgl-fundamentals/webgl/lessons/webgl-how-it-works.html) to help visualise how vertices and fragments are processed and drawn.
 
