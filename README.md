@@ -4,7 +4,7 @@ Recently, I have been starting to get to grips with WebGL. Having little to no r
 
 ##WEBGL OVERVIEW
 
-WebGL is a JavaScript API that allows for the rendering of 3D graphics within the browser. It renders on a <code>&lt;canvas&gt;</code> element as a drawing context, but provides low-level access to the GPU. The graphics can be made completely interactive; responding to keyboard and mouse events, as well as touch events on mobile devices.
+WebGL is a JavaScript API that allows for the creation of 3D and 2D graphics within the browser. It renders on a <code>&lt;canvas&gt;</code> element as a drawing context, but provides low-level access to the GPU. The graphics can be made completely interactive; responding to keyboard and mouse events, as well as touch events on mobile devices.
 
 There are tons of great resources out there to introduce the key concepts behind WebGl and 3D graphics in general. I found Luz Caballero's [introduction to WebGL]( http://dev.opera.com/articles/view/an-introduction-to-webgl/) particularly helpful in getting my head around precisely what is going on behind the scenes of all those amazing [WebGL examples](http://www.chromeexperiments.com/webgl/) on the web. 
 
