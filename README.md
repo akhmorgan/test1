@@ -24,7 +24,7 @@ There are lots of WebGL libraries out there. A few worth looking at are:
 *	[PhiloGL]( http://www.senchalabs.org/philogl/)
 *	[GLGE](http://www.glge.org/)
 
-Check out [Paul Lewis’ tutorials]( http://www.aerotwist.com/) for more information on using libraries (Three.js  in this case).
+Check out [Paul Lewis’ tutorials](http://www.aerotwist.com/tutorials/) for more information on using libraries (Three.js  in this case). Incidentally, the tutorial on shaders is also worth a look.
 
 ##Spinning Squares and Triangles
 For a far more detailed walkthrough the principles behind WebGL and creating your first 3D graphics, I strongly recommend Giles Thomas’ ["Learning WebGL"]( http://learningwebgl.com/blog/) blog. The lessons are adapted from a popular series based around game development in OpenGL, and they cover everything from spinning squares to nicely lit, interactive globes and more.
