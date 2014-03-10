@@ -6,13 +6,11 @@ WebGL is a JavaScript API that allows for the rendering of 3D graphics within th
 
 There are tons of great resources out there to introduce the key concepts behind WebGl and 3D graphics in general. I found Luz Caballero's [introduction to WebGL]( http://dev.opera.com/articles/view/an-introduction-to-webgl/) particularly helpful in getting my head around precisely what is going on behind the scenes of all those amazing [WebGL examples](http://www.chromeexperiments.com/webgl/) on the web. 
 
-Basically, all 3D graphics in WebGL are made up of vertices and fragments. Vertices are what you might expect; points with x, y and z coordinates defining their position. Fragments are in essence the individual pixels within triangles of vertices.
+Basically, all graphics in WebGL are made up of vertices and fragments. Vertices are what you might expect; points with x, y and z coordinates defining their position. Fragments are in essence the individual pixels within triangles of vertices.
 
 ![Vertices and fragments](shaders.jpg)
 
 So, to render a 3D image with WebGL, we essentially build up the image out of triangles. We tell WebGL where we want each vertex, how we want the vertices to be connected into triangles, and how we want both the vertices and the fragments between them to be shaded. 
-
-Greggman on github has some [nice animations]( http://greggman.github.io/webgl-fundamentals/webgl/lessons/webgl-how-it-works.html) to help visualise how vertices and fragments are processed and drawn.
 
 There’s a whole lot more to it than that, of course. So please check out some of the links throughout this post to get a more detailed explanation. You could also read the [WebGL specification]( http://www.khronos.org/registry/webgl/specs/latest/1.0/), if you want a **really detailed** explanation.
 ##WebGL Libraries
