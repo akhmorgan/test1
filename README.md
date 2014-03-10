@@ -12,7 +12,7 @@ Basically, all 3D graphics in WebGL are made up of vertices and fragments. Verti
 
 So, to render a 3D image with webGL, we essentially build up the image out of triangles. We tell webGL where we want each vertex, how we want the vertices to be connected into triangles, and how we want both the vertices and the fragments between them to be shaded. Greggman on github has some [nice animations]( http://greggman.github.io/webgl-fundamentals/webgl/lessons/webgl-how-it-works.html) to help visualise how vertices and fragments are processed and drawn.
 
-There’s a whole lot more to it than that, of course. So please check out some of the links throughout this post to get a more detailed explanation. You can read the [WebGL spec]( http://www.khronos.org/registry/webgl/specs/latest/1.0/), if you want a **really detailed** explanation.
+There’s a whole lot more to it than that, of course. So please check out some of the links throughout this post to get a more detailed explanation. You could also read the [WebGL specification]( http://www.khronos.org/registry/webgl/specs/latest/1.0/), if you want a **really detailed** explanation.
 ##WebGL Libraries
 So we’ve **very** briefly covered how WebGL 3D graphics are created, which is all well and good; but how does that scale to rendering cubes, or spheres, or [aquariums]( https://webglsamples.googlecode.com/hg/aquarium/aquarium.html)? 
 
