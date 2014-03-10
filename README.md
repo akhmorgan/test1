@@ -10,15 +10,18 @@ Basically, all 3D graphics in WebGL are made up of vertices and fragments. Verti
 
 ![Vertices and fragments](shaders.jpg)
 
-So, to render a 3D image with webGL, we essentially build up the image out of triangles. We tell webGL where we want each vertex, how we want the vertices to be connected into triangles, and how we want both the vertices and the fragments between them to be shaded. Greggman on github has some [nice animations]( http://greggman.github.io/webgl-fundamentals/webgl/lessons/webgl-how-it-works.html) to help visualise how vertices and fragments are processed and drawn.
+So, to render a 3D image with webGL, we essentially build up the image out of triangles. We tell webGL where we want each vertex, how we want the vertices to be connected into triangles, and how we want both the vertices and the fragments between them to be shaded. 
+
+Greggman on github has some [nice animations]( http://greggman.github.io/webgl-fundamentals/webgl/lessons/webgl-how-it-works.html) to help visualise how vertices and fragments are processed and drawn.
 
 There’s a whole lot more to it than that, of course. So please check out some of the links throughout this post to get a more detailed explanation. You could also read the [WebGL specification]( http://www.khronos.org/registry/webgl/specs/latest/1.0/), if you want a **really detailed** explanation.
 ##WebGL Libraries
-So we’ve **very** briefly covered how WebGL 3D graphics are created. Which may seem simple enough, but it involves several quite mathematical, and perhaps not particularly intuitive steps. So how does that scale to rendering cubes, or spheres, or [aquariums]( https://webglsamples.googlecode.com/hg/aquarium/aquarium.html)? 
+So we’ve **very** briefly covered how WebGL 3D graphics are created. Which may seem simple enough, but in practice it involves several quite mathematical, and perhaps not very intuitive steps. So how does that scale to rendering cubes, or spheres, or [aquariums]( https://webglsamples.googlecode.com/hg/aquarium/aquarium.html)? 
 
-Short answer: a lot of hard work and usually the use of a library to abstract away some of the more tedious and repetitive tasks. This also has the pleasant side effect of making your code a little bit nicer, and a lot shorter.
+Short answer: a fair amount of work and usually the use of a library to abstract away some of the more tedious and repetitive tasks.
 
-Using libraries, you can go from painstakingly crafting spheres out of triangles to just calling a few simple methods. 
+Using libraries, you can go from painstakingly crafting spheres out of triangles to just calling a few simple methods.  This also has the pleasant side effect of making your code a little bit nicer, and a lot shorter.
+
 There are lots of WebGL libraries out there. A few worth looking at are:
 *	[Three.js]( https://github.com/mrdoob/three.js#readme)
 *	[PhiloGL]( http://www.senchalabs.org/philogl/)
